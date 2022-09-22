@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Flexbox</title>
+    <style>
+            @media (min-width:768px) {
+                
+                .container1{
+                    display:flex;
+                    /* align-items: flex-start; */
+                    /* justify-item: flex-start; */
+
+                    /* flex-direction: column; */
+                }
+                .container2{
+
+                    display:flex;
+                    justify-content: space-between;
+                }
+                
+            }
+         
+            .container3{
+
+                    display:flex;
+                    flex-wrap:wrap;
+                    justify-content: space-between;
+ 
+                    }
+
+            .container1 div, .container2 div,.container3 div {
+                border: 1px #eee solid;
+                padding:10px;   
+               
+            }
+
+
+            .box1{
+                flex:2;
+                order:2;
+            }
+            
+            .box2{
+                flex:1;
+                order: 1;
+            }
+
+            .box3{
+                flex:1;
+                order:3;
+
+            }
+
+            .c-box2{
+                flex-basis: 27%;
+                /* width */
+            }
+            .c-box3{
+                flex-basis: 12%;
+
+            }
+     
+  
+
+    </style>
+</head>
+<body>
+    <div class="container1">
+
+        <div class="box1">
+            <h3>box 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.   </p>
+        </div>
+
+        <div class="box2">
+            <h3>box 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        </div>
+
+        <div class="box3">
+            <h3>box 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  </p>
+        </div>  
+    </div>
+
+    <div class="container2">
+        <div class="c-box2">
+            <h3>box 4</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, modi?  </p>
+        </div>
+        <div class="c-box2">
+            <h3>box 5</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, modi? </p>
+        </div>
+        <div class="c-box2">
+            <h3>box 6</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, modi?  </p>
+        </div>  
+    </div>
+   
+    <div class="container3">
+
+        <div class="c-box3">
+            <h3>box 7</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, modi?  </p>
+        </div>
+
+        <div class="c-box3">
+            <h3>box 8</h3>
+            <p>Lorem ipsum dolor sit amet, co3nsectetur adipisicing. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, modi? </p>
+        </div>
+
+        <div class="c-box3">
+            <h3>box 9</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, modi?  </p>
+        </div>  
+        <div class="c-box3">
+            <h3>box 10</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, modi?  </p>
+        </div>
+
+        <div class="c-box3">
+            <h3>box 11</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, modi? </p>
+        </div>
+
+        <div class="c-box3">
+            <h3>box 12</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, modi?  </p>
+        </div>  
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+/* FONTS */
+
+*
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+body
+{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1
+{ 
+font-size: 75px;
+padding-top: 300px;
+padding-bottom: 400px;
+text-align: center;
+}
+
+p 
+{
+font-size: 30px;
+}
+
+/* CLASSES STYLE 1 -------------------------------------------------------- */
+
+
+.wrapper1
+{
+    display: grid;
+    grid-template-columns:70% 30% ;
+    background-color: rgb(79, 79, 79);
+    padding:100px;
+}
+
+.wrapper1IMG{
+    padding-left: 80px;
+
+}
+
+.p1{
+    /* margin-left: 20px; */
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+
+/* CLASSES STYLE 2 -------------------------------------------------------- */
+
+
+.wrapper2
+{
+    display: grid;
+    grid-template-columns:30% 70% ;
+    background-color: grey;
+    padding:100px;
+}
+
+.wrapper2IMG{
+    padding-left: 80px;
+
+}
+
+.p2{
+    /* margin-left: 20px; */
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+
+
+/* IMAGE RESIZING -------------------------------------------------------- */
+#DuckIMG {
+    width: 400px;
+
+}
+#DuckIMG2 {
+    width: 400px;
+
+}
+

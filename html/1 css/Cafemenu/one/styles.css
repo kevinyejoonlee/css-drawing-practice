@@ -1,0 +1,41 @@
+body{
+    background-image: url(roasted-coffee-beans-isolated-close-up-brown-grunge-background_154092-16430.jpeg);
+    background-size: cover;
+
+}
+
+div{
+    background-color: burlywood;
+    margin: auto;
+    width: 500px;
+
+
+}
+
+hr{
+    width: 80%;
+    background-color: brown;
+    border-color: brown;
+
+}
+header, h2, footer{
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+article p:first-child{
+    text-align: left;
+    width: 75%;
+}
+article p:last-child{
+
+    text-align: right;
+    width: 25%;
+
+
+}
