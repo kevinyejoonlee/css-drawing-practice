@@ -1,5 +1,8 @@
 # css-drawing-practice
 
+
+I would love to try drawing stuff like on https://codepen.io/tag/css-art in the future
+
 1. Korean Flag only using positioning
 
 <div align="center">
